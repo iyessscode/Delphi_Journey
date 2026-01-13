@@ -3,23 +3,31 @@ object FormAuth: TFormAuth
   Top = 0
   Cursor = crHandPoint
   Caption = 'Sign In'
-  ClientHeight = 441
-  ClientWidth = 624
+  ClientHeight = 361
+  ClientWidth = 584
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
-  Font.Height = -12
-  Font.Name = 'Segoe UI'
-  Font.Style = []
+  Font.Height = -16
+  Font.Name = 'MS Sans Serif'
+  Font.Style = [fsBold]
   Position = poScreenCenter
-  TextHeight = 15
+  TextHeight = 20
   object BtnSignIn: TButton
-    Left = 280
-    Top = 232
-    Width = 75
-    Height = 25
+    Left = 216
+    Top = 176
+    Width = 129
+    Height = 32
     Cursor = crHandPoint
+    Align = alCustom
     Caption = 'Sign In'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Inter'
+    Font.Style = []
+    ParentFont = False
     TabOrder = 0
+    OnClick = btnSignClicked
   end
 end

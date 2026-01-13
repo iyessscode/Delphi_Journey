@@ -1,0 +1,35 @@
+# Delphi build artifacts
+*.dcu
+*.exe
+*.dll
+*.bpl
+*.dcp
+*.map
+*.stat
+*.drc
+*.res
+
+# Delphi IDE files
+*.identcache
+*.local
+__history/
+*.groupproj.local
+*.deployproj.local
+
+# Build output folders
+Win32/
+Win64/
+Android/
+iOSDevice64/
+Linux64/
+OSX64/
+
+# Config / secrets
+*.ini
+*.env
+config/
+secrets/
+
+# OS junk
+.DS_Store
+Thumbs.db

@@ -57,7 +57,64 @@ object FormContact: TFormContact
     Width = 112
     Height = 425
     BevelInner = bvLowered
-    Caption = 'Panel5'
+    Padding.Left = 8
+    Padding.Top = 10
+    Padding.Right = 8
+    Padding.Bottom = 10
     TabOrder = 4
+    object BtnDisplay: TButton
+      AlignWithMargins = True
+      Left = 12
+      Top = 14
+      Width = 88
+      Height = 25
+      Margins.Left = 2
+      Margins.Top = 2
+      Margins.Right = 2
+      Margins.Bottom = 8
+      Align = alTop
+      Caption = 'Display'
+      TabOrder = 0
+      ExplicitLeft = 7
+      ExplicitTop = 24
+      ExplicitWidth = 97
+    end
+    object BitBtn1: TBitBtn
+      AlignWithMargins = True
+      Left = 12
+      Top = 49
+      Width = 88
+      Height = 25
+      Margins.Left = 2
+      Margins.Top = 2
+      Margins.Right = 2
+      Margins.Bottom = 8
+      Align = alTop
+      Caption = '&Reset'
+      Kind = bkRetry
+      NumGlyphs = 2
+      TabOrder = 1
+      ExplicitLeft = 13
+      ExplicitTop = 40
+      ExplicitWidth = 92
+    end
+    object BitBtn4: TBitBtn
+      AlignWithMargins = True
+      Left = 12
+      Top = 386
+      Width = 88
+      Height = 25
+      Margins.Left = 2
+      Margins.Top = 8
+      Margins.Right = 2
+      Margins.Bottom = 2
+      Align = alBottom
+      Kind = bkClose
+      NumGlyphs = 2
+      TabOrder = 2
+      ExplicitLeft = 32
+      ExplicitTop = 216
+      ExplicitWidth = 75
+    end
   end
 end

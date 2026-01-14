@@ -32,8 +32,136 @@ object FormContact: TFormContact
     Top = 47
     Width = 281
     Height = 241
-    Caption = 'Panel2'
+    Padding.Left = 10
+    Padding.Top = 10
+    Padding.Right = 10
+    Padding.Bottom = 10
     TabOrder = 1
+    object LabelFirstName: TLabel
+      AlignWithMargins = True
+      Left = 15
+      Top = 13
+      Width = 253
+      Height = 15
+      Margins.Left = 4
+      Margins.Top = 2
+      Margins.Right = 2
+      Margins.Bottom = 2
+      Align = alTop
+      Caption = 'First Name'
+      ExplicitLeft = 14
+      ExplicitTop = 0
+    end
+    object LabelLastName: TLabel
+      AlignWithMargins = True
+      Left = 15
+      Top = 65
+      Width = 253
+      Height = 15
+      Margins.Left = 4
+      Margins.Top = 2
+      Margins.Right = 2
+      Margins.Bottom = 2
+      Align = alTop
+      Caption = 'Last Name'
+      ExplicitLeft = 38
+      ExplicitTop = 35
+    end
+    object LabelAge: TLabel
+      AlignWithMargins = True
+      Left = 15
+      Top = 169
+      Width = 253
+      Height = 15
+      Margins.Left = 4
+      Margins.Top = 2
+      Margins.Right = 2
+      Margins.Bottom = 2
+      Align = alTop
+      Caption = 'Age'
+      Layout = tlCenter
+      ExplicitLeft = 14
+      ExplicitTop = 158
+      ExplicitWidth = 21
+    end
+    object LabelGender: TLabel
+      AlignWithMargins = True
+      Left = 15
+      Top = 117
+      Width = 253
+      Height = 15
+      Margins.Left = 4
+      Margins.Top = 2
+      Margins.Right = 2
+      Margins.Bottom = 2
+      Align = alTop
+      Caption = 'Gender'
+      ExplicitLeft = 14
+      ExplicitTop = 111
+      ExplicitWidth = 255
+    end
+    object InputLastName: TEdit
+      AlignWithMargins = True
+      Left = 14
+      Top = 84
+      Width = 253
+      Height = 23
+      Margins.Top = 2
+      Margins.Bottom = 8
+      Align = alTop
+      TabOrder = 0
+      ExplicitLeft = 13
+      ExplicitTop = 83
+      ExplicitWidth = 204
+    end
+    object InputFirstName: TEdit
+      AlignWithMargins = True
+      Left = 14
+      Top = 32
+      Width = 253
+      Height = 23
+      Margins.Top = 2
+      Margins.Bottom = 8
+      Align = alTop
+      TabOrder = 1
+      ExplicitLeft = 11
+      ExplicitTop = 40
+    end
+    object InputGender: TComboBox
+      AlignWithMargins = True
+      Left = 14
+      Top = 136
+      Width = 253
+      Height = 23
+      Margins.Top = 2
+      Margins.Bottom = 8
+      Align = alTop
+      Style = csDropDownList
+      ItemIndex = 0
+      TabOrder = 2
+      Text = 'Male'
+      Items.Strings = (
+        'Male'
+        'Female')
+      ExplicitLeft = 10
+      ExplicitTop = 133
+      ExplicitWidth = 261
+    end
+    object InputAge: TSpinEdit
+      AlignWithMargins = True
+      Left = 14
+      Top = 189
+      Width = 253
+      Height = 24
+      Align = alTop
+      MaxValue = 150
+      MinValue = 15
+      TabOrder = 3
+      Value = 20
+      ExplicitLeft = 48
+      ExplicitTop = 222
+      ExplicitWidth = 121
+    end
   end
   object Panel3: TPanel
     Left = 295
@@ -79,7 +207,7 @@ object FormContact: TFormContact
       ExplicitTop = 24
       ExplicitWidth = 97
     end
-    object BitBtn1: TBitBtn
+    object BtBtnReset: TBitBtn
       AlignWithMargins = True
       Left = 12
       Top = 49
@@ -98,7 +226,7 @@ object FormContact: TFormContact
       ExplicitTop = 40
       ExplicitWidth = 92
     end
-    object BitBtn4: TBitBtn
+    object BtBtnClose: TBitBtn
       AlignWithMargins = True
       Left = 12
       Top = 386

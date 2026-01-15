@@ -2,7 +2,7 @@ object frmContact: TfrmContact
   Left = 0
   Top = 0
   Caption = 'Contact Information'
-  ClientHeight = 501
+  ClientHeight = 552
   ClientWidth = 624
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -305,7 +305,7 @@ object frmContact: TfrmContact
     Left = 504
     Top = 47
     Width = 112
-    Height = 446
+    Height = 497
     BevelInner = bvLowered
     Padding.Left = 8
     Padding.Top = 10
@@ -346,7 +346,7 @@ object frmContact: TfrmContact
     object bmbClose: TBitBtn
       AlignWithMargins = True
       Left = 12
-      Top = 407
+      Top = 458
       Width = 88
       Height = 25
       Margins.Left = 2
@@ -357,19 +357,22 @@ object frmContact: TfrmContact
       Kind = bkClose
       NumGlyphs = 2
       TabOrder = 2
+      ExplicitTop = 407
     end
   end
   object redDisplayInformation: TRichEdit
     Left = 8
     Top = 391
     Width = 490
-    Height = 102
+    Height = 153
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -12
     Font.Name = 'Segoe UI'
     Font.Style = []
     ParentFont = False
+    ReadOnly = True
+    ScrollBars = ssVertical
     TabOrder = 5
   end
 end

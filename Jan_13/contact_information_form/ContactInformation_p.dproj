@@ -123,8 +123,8 @@
         <DelphiCompile Include="$(MainSource)">
             <MainSource>MainSource</MainSource>
         </DelphiCompile>
-        <DCCReference Include="FormContact_u.pas">
-            <Form>FormContact</Form>
+        <DCCReference Include="frmContactForm_u.pas">
+            <Form>frmContact</Form>
             <FormType>dfm</FormType>
         </DCCReference>
         <BuildConfiguration Include="Base">

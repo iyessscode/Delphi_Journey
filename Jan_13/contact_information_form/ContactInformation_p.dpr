@@ -2,13 +2,13 @@ program ContactInformation_p;
 
 uses
   Vcl.Forms,
-  FormContact_u in 'FormContact_u.pas' {FormContact};
+  frmContactForm_u in 'frmContactForm_u.pas' {frmContact};
 
 {$R *.res}
 
 begin
   Application.Initialize;
   Application.MainFormOnTaskbar := True;
-  Application.CreateForm(TFormContact, FormContact);
+  Application.CreateForm(TfrmContact, frmContact);
   Application.Run;
 end.

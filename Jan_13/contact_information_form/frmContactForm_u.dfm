@@ -295,7 +295,7 @@ object frmContact: TfrmContact
     object chkSendNewsletter: TCheckBox
       Left = 16
       Top = 118
-      Width = 97
+      Width = 145
       Height = 17
       Caption = 'Send Newsletter'
       TabOrder = 2
@@ -325,6 +325,7 @@ object frmContact: TfrmContact
       Align = alTop
       Caption = 'Display'
       TabOrder = 0
+      OnClick = btnDisplayClick
     end
     object bmbReset: TBitBtn
       AlignWithMargins = True
@@ -358,7 +359,7 @@ object frmContact: TfrmContact
       TabOrder = 2
     end
   end
-  object redDescription: TRichEdit
+  object redDisplayInformation: TRichEdit
     Left = 8
     Top = 391
     Width = 490
